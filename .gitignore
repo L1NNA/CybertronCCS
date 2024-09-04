@@ -1,0 +1,22 @@
+.idea
+.vscode
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook and python files
+.ipynb_checkpoints
+**/*.pyc
+
+# Node modules
+**/*/node_modules
+**/*.DS_Store
+**/*.ipynb_checkpoints
+
+data-tfr/
+results/
+logs/
+data_gen/*.zip
+

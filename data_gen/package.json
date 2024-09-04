@@ -1,0 +1,14 @@
+{
+    "scripts": {
+        "start": "node index.js",
+        "base": "node obfuscate_only.js"
+    },
+    "dependencies": {
+        "acorn": "^7.1.1",
+        "acorn-bigint": "^0.4.0",
+        "acorn-loose": "^7.1.0",
+        "edit-distance": "^1.0.2",
+        "javascript-obfuscator": "^0.27.2",
+        "uglify-js": "^3.9.4"
+    }
+}
