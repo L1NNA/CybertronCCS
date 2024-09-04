@@ -10,7 +10,7 @@ pip install -r requirements.txt
 ```
 
 ## Data Generation
-Download the files [here](https://www.dropbox.com/scl/fi/d43twmavj3jm7brwr0fcx/origin.zip?rlkey=sayrh30bvkqduh2mbad4tgmw9&st=5lw7w0hb&dl=0) and place under `data_gen/data`
+Download the files [here](https://github.com/L1NNA/CybertronCCS/releases/tag/data_release) and place under `data_gen/data`
 ```shell script
 python -m data_loader --h
 python -m data_loader --data Exp_all_m1
@@ -30,7 +30,7 @@ We have created a python module to train and evaluate the model.
   ```
 - Using scripts
   ```shell script
-  base scripts/train_rl.sh
+  bash scripts/train_rl.sh
   ```
 
 ## Models
